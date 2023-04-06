@@ -1,7 +1,16 @@
+import "./Header.css";
+
 export default function Header() {
   return (
-    <div className="cl">
-      <h1>header</h1>
-    </div>
+    <header className="header">
+      <nav className="header__nav">
+        <a className="header__logo" href="#">
+          {"< Dzulbaran />"}
+        </a>
+        <a className="header__link" href="#">
+          Contact me
+        </a>
+      </nav>
+    </header>
   );
 }

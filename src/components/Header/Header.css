@@ -1,0 +1,29 @@
+/* 1rem = 16px */
+
+.header {
+  height:5.75rem; /*92px*/
+  width: 100%;
+}
+
+.header__nav {
+  height: 100%;
+}
+
+.header__nav a {
+  color: var(--font-color);
+  padding: 0.625rem 1.25rem;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.header__logo {
+  float: left;
+}
+
+.header__link {
+  background-color: var(--color-gray--light);
+  border-radius: 2rem;
+  font-size: var(--font-size-text);
+  float: right;
+  line-height: 1.25rem;
+}
