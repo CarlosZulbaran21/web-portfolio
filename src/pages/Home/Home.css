@@ -1,0 +1,11 @@
+.section {
+  padding: 2.5rem auto;
+}
+.section__article {
+  position: relative;
+}
+
+.article__svg-container {
+    position: absolute;
+    height: 100%;
+}
