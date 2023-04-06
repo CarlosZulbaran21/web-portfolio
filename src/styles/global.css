@@ -1,5 +1,12 @@
 :root {
- --bg-light: rgb(255, 255, 255);
- --font-size-title: 60px;
- --font-size-description: 18px;
+  --background: rgb(255, 255, 255);
+  --font-size-title: 60px;
+  --font-size-description: 18px;
+}
+[data-theme="dark"] {
+  --bg-light: rgb(68, 68, 68);
+}
+
+.cl {
+  background-color: var(--bg-light);
 }
