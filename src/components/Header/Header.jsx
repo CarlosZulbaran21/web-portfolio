@@ -7,6 +7,15 @@ export default function Header() {
         <a className="header__logo" href="#">
           {'< Dzulbaran />'}
         </a>
+        <a className="header__desktop" href="#">
+          {'Home'}
+        </a>
+        <a className="header__desktop" href="#">
+          {'Portfolio'}
+        </a>
+        <a className="header__desktop" href="#">
+          {'About Me'}
+        </a>
         <a className="header__link" href="#">
           Contact me
         </a>

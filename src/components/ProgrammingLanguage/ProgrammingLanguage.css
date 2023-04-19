@@ -1,0 +1,31 @@
+.language-container {
+  display: flex;
+  text-transform: capitalize;
+  padding: 0.175rem 1rem;
+  border-radius: 0.25rem;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-container img {
+  object-fit: contain;
+}
+
+.language-React {
+  background-color: rgb(28, 29, 29);
+  color: var(--background);
+}
+
+.language-Nodejs {
+  border: 1px solid rgb(121, 181, 97);
+  color: var(--font-color);
+}
+
+.language-Typescript {
+  border: 1px solid rgb(44, 121, 198);
+}
+
+.language-Sql-Server {
+  border: 1px solid rgb(214, 31, 20);
+}

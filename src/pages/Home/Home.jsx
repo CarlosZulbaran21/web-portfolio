@@ -1,12 +1,16 @@
 import './Home.css';
-import Person from '../../components/Person/Person';
-import ShortDescription from '../../components/ShortDescription/ShortDescription';
 
-export default function Home () {
+import { lazy } from 'react';
+const Person = lazy(() => import('../../components/Person/Person'));
+const ShortDescription = lazy(() =>
+  import('../../components/ShortDescription/ShortDescription')
+);
+
+export default function Home() {
   return (
-    <>
+    <div className={'home-grid'}>
       <Person />
       <ShortDescription />
-    </>
-  )
+    </div>
+  );
 }

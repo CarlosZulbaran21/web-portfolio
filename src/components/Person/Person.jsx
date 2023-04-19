@@ -5,6 +5,16 @@ export default function Person() {
   return (
     <article className="person-container">
       <div className="person-container__div">
+        <div style={{ position: 'relative' }}>
+          <div className="experience-container">
+            <div className="experience-text">
+              <div className="experience-columns">
+                <strong className="experience-ages">3+</strong>
+                <span>years experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
         <svg
           className="person-container__div__orange"
           xmlns="http://www.w3.org/2000/svg"
@@ -30,14 +40,6 @@ export default function Person() {
         </svg>
       </div>
       <div className="picture-container">
-        <div className="experience-container">
-          <div className="experience-text">
-            <div className="experience-columns">
-              <strong className="experience-ages">3+</strong>
-              <span>years experience</span>
-            </div>
-          </div>
-        </div>
         <img
           className="photo-presentation"
           src={Img1}
@@ -45,7 +47,7 @@ export default function Person() {
           width="299"
           height="384"
           decoding="async"
-          fetchpriority="high"
+          fetchpriority={'high'}
         />
       </div>
     </article>
