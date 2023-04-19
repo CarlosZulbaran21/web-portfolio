@@ -1,0 +1,5 @@
+.projects-container{
+    width: 100%;
+    background-color: var(--font-color);
+    height: 400px;
+}

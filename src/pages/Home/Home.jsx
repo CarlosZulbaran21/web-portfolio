@@ -1,5 +1,3 @@
-import './Home.css';
-
 import { lazy } from 'react';
 const Person = lazy(() => import('../../components/Person/Person'));
 const ShortDescription = lazy(() =>
@@ -8,7 +6,7 @@ const ShortDescription = lazy(() =>
 
 export default function Home() {
   return (
-    <div className={'home-grid'}>
+    <div className={'home-grid'} id={'home'}>
       <Person />
       <ShortDescription />
     </div>

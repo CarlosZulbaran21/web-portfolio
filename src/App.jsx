@@ -1,6 +1,7 @@
+import { Suspense } from 'react';
 import Header from './components/Header/Header';
 import Home from './pages/Home/Home';
-import { Suspense } from 'react';
+import Projects from './pages/Projects/Projects.jsx';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <main>
         <Home />
+        <Projects />
       </main>
     </Suspense>
   );

@@ -21,11 +21,19 @@ export default function ShortDescription() {
           Contact Me
         </a>
         <div className="social-container">
-          <a className="social-container__a" href="#">
+          <a
+            className="social-container__a"
+            href="https://www.linkedin.com/in/carlos-daniel-zulbaran-sarmiento-40a5a2198/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <LinkedinLogo />
           </a>
-          <a href="#">
-            {' '}
+          <a
+            href="https://github.com/carloszulbaran21"
+            target="_blank"
+            rel="noreferrer"
+          >
             <GitHubLogo />
           </a>
         </div>
