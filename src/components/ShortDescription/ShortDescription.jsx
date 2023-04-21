@@ -17,7 +17,7 @@ export default function ShortDescription() {
         experience.
       </p>
       <div className="contact-info">
-        <a className="button-contact" href="#">
+        <a className="button-contact" href="#contact">
           Contact Me
         </a>
         <div className="social-container">

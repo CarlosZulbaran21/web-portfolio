@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Home from './pages/Home/Home';
 import Projects from './pages/Projects/Projects.jsx';
 import AboutMe from './pages/AboutMe/AboutMe.jsx';
+import Contact from './pages/Contact/Contact.jsx';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Home />
         <Projects />
         <AboutMe />
+        <Contact />
       </main>
     </Suspense>
   );
