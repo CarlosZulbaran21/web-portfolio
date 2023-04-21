@@ -10,7 +10,8 @@ export default function ButtonTheme() {
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
-    document.documentElement.style.backgroundColor = theme === 'dark' ? '#000' : '#fff'
+    document.documentElement.style.backgroundColor =
+      theme === 'dark' ? '#000' : '#fff';
   }, [theme]);
 
   return (

@@ -28,6 +28,6 @@
   transition-duration: 1s;
 }
 
-.dark{
+.dark {
   filter: invert(100%);
 }
