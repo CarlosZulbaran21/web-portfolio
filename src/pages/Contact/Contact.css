@@ -52,18 +52,17 @@
     margin: 0 auto;
   }
 
-  .social-media-container{
+  .social-media-container {
     grid-template-columns: 1fr;
   }
-
 }
 
 @media screen and (min-width: 640px) {
   .content__title {
     max-width: 640px;
   }
-  .social-media-container{
-    grid-template-columns:repeat(4, 1fr);
+  .social-media-container {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 

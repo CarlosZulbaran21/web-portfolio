@@ -12,12 +12,14 @@
   font-size: 3.75rem;
   font-weight: 400;
   margin: 0;
+  color: var(--font-color);
 }
 .description-container__h1 {
   line-height: 1;
   font-size: 3.75rem;
   font-weight: 400;
   margin: 0;
+  color: var(--font-color);
 }
 
 .description-container__h1__strong {
@@ -28,7 +30,7 @@
 .description-container__p {
   line-height: 1.25;
   --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
+  color: var(--font-color);
 }
 
 .contact-info {
@@ -43,7 +45,7 @@
   border-radius: 2rem;
   font-size: var(--font-size-text);
   line-height: 1.25rem;
-  color: var(--background);
+  color: #FFF;
   padding: 0.725rem 1.25rem;
   text-align: center;
   text-decoration: none;

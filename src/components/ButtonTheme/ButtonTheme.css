@@ -1,0 +1,33 @@
+.button-dark {
+  --tw-translate-x: 0;
+  --tw-scale-x: 0;
+  --tw-scale-y: 1;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-y: 0;
+  --tw-skew-x: 0;
+  text-transform: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2.5rem;
+  width: 2.5rem;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 1s;
+  /*transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));*/
+}
+
+.button-dark img {
+  aspect-ratio: 1 / 1;
+  transition-duration: 1s;
+}
+
+.dark{
+  filter: invert(100%);
+}

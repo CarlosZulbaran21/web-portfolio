@@ -1,8 +1,10 @@
 import './Header.css';
+import ButtonTheme from '../ButtonTheme/ButtonTheme.jsx';
 
 export default function Header() {
   return (
     <header className="header">
+      {/*<ButtonTheme />*/}
       <nav className="header__nav">
         <a
           className="header__logo"
