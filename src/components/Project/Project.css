@@ -1,0 +1,114 @@
+.project {
+  border: 1px solid rgb(55 65 81 / var(--tw-bg-opacity));
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, #0000), var(--tw-shadow);
+  position: relative;
+  border-radius: 1.5rem;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.project-icon {
+  position: absolute;
+  right: -0.5rem;
+  top: -0.75rem;
+  z-index: 10;
+  aspect-ratio: 1 / 1;
+}
+
+.project-icon__absolute {
+  width: 2.5rem;
+  aspect-ratio: 1 / 1;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.project-anchor {
+  border-radius: 1.5rem;
+  text-decoration: none;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.project-image {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+  opacity: 0.8;
+  object-position: top;
+  object-fit: cover;
+  width: 40%;
+  aspect-ratio: 1 / 1;
+  max-width: 100%;
+  height: auto;
+}
+
+.project-image:hover {
+  transform: scale(1.2);
+}
+
+.project-about {
+  z-index: 10;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+  border-top-left-radius: 1.5rem;
+  background-color: transparent;
+  padding: 0.625rem;
+  line-height: 1.5;
+  margin-left: 1rem;
+}
+
+.project-about__h3 {
+  color: var(--background);
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+}
+
+.project-about__p {
+  font-weight: 400;
+  color: var(--color-gray);
+  font-size: 0.9rem;
+  line-height: 24px;
+}
+
+.project-languages {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.project-languages__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: var(--background);
+  padding: 0.25rem 0.625rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, #0000), var(--tw-shadow);
+}
+
+.project-languages__img {
+  aspect-ratio: 1 / 1;
+  width: 1.25rem;
+  object-fit: contain;
+}
+
+.language-name {
+  font-size: 0.875rem;
+  color: var(--font-color);
+  font-weight: 400;
+}
