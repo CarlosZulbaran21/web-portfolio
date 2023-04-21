@@ -6,9 +6,9 @@ const ShortDescription = lazy(() =>
 
 export default function Home() {
   return (
-    <div className={'home-grid'} id={'home'}>
+    <section className={'home-grid'} id={'home'}>
       <Person />
       <ShortDescription />
-    </div>
+    </section>
   );
 }

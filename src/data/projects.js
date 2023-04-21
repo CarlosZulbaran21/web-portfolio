@@ -3,11 +3,11 @@ import PostgreSQL from '../assets/images/postgresSQL.png';
 import Sequelize from '../assets/images/sequelize.png';
 import Redis from '../assets/images/redis.webp';
 import React from '../assets/svg/react.svg';
-import Javascript from '../assets/images/javascript.png'
-import NodeJsBackground from '../assets/images/nodejs-code.png'
-import ReactBackground from '../assets/images/react-code.jpg'
-import SequelizeBackground from '../assets/images/sequelize-code.png'
-import Redisbackground from '../assets/images/redis-code.png'
+import Javascript from '../assets/images/javascript.png';
+import NodeJsBackground from '../assets/images/nodejs-code.png';
+import ReactBackground from '../assets/images/react-code.jpg';
+import SequelizeBackground from '../assets/images/sequelize-code.png';
+import Redisbackground from '../assets/images/redis-code.png';
 
 export const projects = [
   {
@@ -20,8 +20,8 @@ export const projects = [
       },
       {
         icon: Javascript,
-        name: 'Javascript'
-      }
+        name: 'Javascript',
+      },
     ],
     image: ReactBackground,
     icon: React,

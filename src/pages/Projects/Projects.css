@@ -28,20 +28,19 @@
 }
 
 @media (min-width: 320px) {
-  .project-list{
+  .project-list {
     grid-template-columns: 1fr;
     width: 80%;
     margin: 0 auto;
   }
 }
 
-
 @media screen and (min-width: 640px) {
   .projects-grid {
     max-width: 640px;
   }
 
-  .project-list{
+  .project-list {
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
   }
@@ -58,7 +57,7 @@
     max-width: 1024px;
   }
 
-  .project-list{
+  .project-list {
     grid-template-columns: repeat(3, 1fr);
   }
 }

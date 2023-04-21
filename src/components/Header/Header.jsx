@@ -13,7 +13,7 @@ export default function Header() {
         <a className="header__desktop" href="#projects">
           {'Portfolio'}
         </a>
-        <a className="header__desktop" href="#">
+        <a className="header__desktop" href="#about-me">
           {'About Me'}
         </a>
         <a className="header__link" href="#">
