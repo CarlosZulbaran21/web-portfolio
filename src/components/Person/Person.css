@@ -22,6 +22,7 @@
 }
 .person-container__div__orange {
   margin: 28px;
+  z-index: -1;
 }
 
 .experience-container {
