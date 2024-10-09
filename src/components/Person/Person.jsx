@@ -9,7 +9,7 @@ export default function Person() {
           <div className="experience-container">
             <div className="experience-text">
               <div className="experience-columns">
-                <strong className="experience-ages">5+</strong>
+                <strong className="experience-ages">4+</strong>
                 <span>years experience</span>
               </div>
             </div>
