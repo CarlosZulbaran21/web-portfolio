@@ -33,9 +33,7 @@ export default function Contact() {
               Github
             </a>
             <a
-              href={
-                'https://docs.google.com/document/d/13XnNLB9TJVMY7NG-uTfHVo9K1n-xPfKl/edit?usp=sharing&ouid=110302450081421354202&rtpof=true&sd=true'
-              }
+              href={'/Curriculum_Carlos_Zulbaran.pdf'}
               target={'_blank'}
               rel="noreferrer"
             >

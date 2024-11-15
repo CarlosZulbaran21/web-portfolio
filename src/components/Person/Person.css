@@ -61,7 +61,7 @@
 }
 
 .photo-presentation {
-  max-height: 24rem;
+  max-height: 15rem;
   width: auto;
   -webkit-clip-path: url(#blob3);
   clip-path: url(#blob3);
@@ -88,5 +88,11 @@
 
   .person-container {
     order: 1;
+  }
+}
+
+@media screen and (min-width: 1014px) {
+  .photo-presentation {
+    min-height: 24rem;
   }
 }
